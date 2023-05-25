@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                git branch: 'main', url: 'https://github.com/joeprakash15/jenkisn-webhook-demo.git/'
+                git branch: 'main', url: 'https://github.com/gowthamprabaka/repositry2.git'
             }
         }
     }
